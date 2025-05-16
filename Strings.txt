@@ -1,0 +1,70 @@
+Written in double or single quotes
+template Strings: are introduced in ES6 
+syntax: Templates are strings enclosed in backticks (`This is a template string`).
+Some imp mwthods:
+String s = "arun";
+x = "arun"
+y = "arun"
+x==y returns true and x===y  return true
+
+Comparing two JavaScript objects always returns false.
+x = new String("arun")
+y = new String("arun")
+console.log(x==y) // false
+
+String length // to find the length
+String charAt() // 
+String charCodeAt() // The method returns a UTF-16 code (an integer between 0 and 65535).
+String at() // introduced in ES2022, we can use negative index also , at(-1) meaning it will start from end.
+String [0]
+
+String slice() : extracts a part of a string and returns the extracted part in a new string 
+                 The method takes 2 parameters: start position, and end position (end not included).
+                 It also takes negative numbers meaning starts from last
+String substring() :
+                 substring() is similar to slice().
+                 The difference is that start and end values less than 0 are treated as 0 in substring().
+
+
+String toUpperCase()
+String toLowerCase()
+String concat()
+String trim()
+String trimStart()
+String trimEnd()
+String padStart(4,"0") : // s = "x" = 000x
+                    The padStart() method pads a string from the start.
+                    It pads a string with another string (multiple times) until it reaches a given length.
+String padEnd()
+String repeat(2)
+String replace(ols String, new String) :
+                To replace case insensitive, use a regular expression with an /i flag (insensitive):
+                let text = "Please visit Microsoft!";
+                let newText = text.replace(/MICROSOFT/i, "W3Schools");
+                To replace all matches, use a regular expression with a /g flag (global match):
+
+                Example
+                let text = "Please visit Microsoft and Microsoft!";
+                let newText = text.replace(/Microsoft/g, "W3Schools");
+
+String replaceAll():
+
+String split("") : splits with Single char
+
+String indexOf() : 
+String lastIndexOf()
+String search()
+
+String match()
+Perform a global, case-insensitive search for "ain":
+let text = "The rain in SPAIN stays mainly in the plain";
+text.match(/ain/gi);
+
+String matchAll()
+String includes()
+String startsWith()
+String endsWith()
+
+
+Note : All string methods return a new string. They don't modify the original string.
+       Strings are immutable: Strings cannot be changed, only replaced.

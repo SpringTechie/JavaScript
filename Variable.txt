@@ -1,0 +1,67 @@
+variable are container for data.
+In Js Dynamically type lang.
+Mean we no need to declare data type of value while creating.
+we can declare variable with diff data.
+Example: isFollowing = false;
+         isFollowing = 23
+ console.log(isFollowing) // 23
+Rules to create Variables:
+
+1.Varibale names are case sensitive.
+2.Only letters digits and alphabets and $,_ symbol are allowed 
+3.First character should be _ or alphabet or $ are valid.
+4.Reserved words cannot be variable names.
+
+
+var,let ,const
+
+var is the type of varibale before 2015 after intro of ES6 it is not recommned to use. Global scope
+by using var we can declare the variable any number of types.
+Ex:
+var age = 23;
+var age = 34;
+var age = 45;
+
+let :
+varibale cannot be declared but can updated . A block scope.
+Example:
+let a; if we try print this o/p is undefined
+let age = 23;
+ age = 34;
+ age = 45
+
+const(final) : only once declaration and cannot be updated. Block scope.
+const age 23;
+age = 34; // error
+Best practise to declare const variable is declare varibale with capital letters
+
+DataTypes: 
+1.primitive(7) and non primitive 
+
+1.number : it can store both whole and decimal numbers.
+2.String: In double quotes.
+3.Boolean : true or false
+4.Undefined : Variable declared but not initialized let a;
+5.null : Represents an empty or non-existent value let x = null;
+6.Symbol :Introduced in ES6, unique and immutable.
+7.BigInt : Used for large integers : let age = 123n
+
+To know any data type of any variable 
+use this function
+typeof(age)
+
+Non -primitive.
+It is a collection of diff variables.
+
+let st = {
+    rollId: 1,
+    name : "raja",
+    isPresent : true
+
+}
+console.log(st["rollId"])
+console.log(st.isPresent)
+to update any value in object
+
+st["name"] = "Raja Kumar";
+st["rollId"] = st["rollId"] + 1;

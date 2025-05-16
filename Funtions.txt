@@ -1,0 +1,29 @@
+Functions : It has block of code used to perform any specific task.
+Advantage: By using Function we can get code resuability.
+
+Syntax to declare Function:
+
+function <function_name>(parameters) {
+    // sample code
+}
+
+to invoke any function we have follow this Syntax
+
+function_name(arguments)
+All variables inside a function are local variables meaning it can be accessed inside that function only.
+Where js function are used?
+
+1.When event occures.
+2.When it is invoked from Js.
+3.Self invoking or calling.
+
+In js we can use functions as variables.
+const minus = function sub(a,b) {
+    return a-b;
+}
+
+console.log(minus(1,2))
+
+if we call like this for above function we get the "NaN"
+minus(); with empty args.
+

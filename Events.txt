@@ -1,0 +1,1 @@
+Events are action that happens on HTML elements.

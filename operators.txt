@@ -1,0 +1,48 @@
+Operators in JS:
+1.Arithmetic Operators
+ +,-,/,*,% , ** (expoenentioanl Operators),++ (pre and post increment), --(pre and post decrement)
+2.Assignment Operators:
+=, += ,-+,*=,/=,%=,**=
+3.Comparison Operators:
+== (compares the value for example let a = 6, let b= "6" then  a==b return true beacuse it only compares content)
+=== (it checks both the value and type of value let a = 6, let b= "6" then  a==b return false beacuse even value is same but their type is diff)
+!==
+!===
+<,>,>=,<=
+4.String Operators:
+5.Logical Operators:
+&&(AND), || (OR),!(NOT)
+AND
+0 0 = 0
+0 1 = 0
+1 0 = 0
+1 1 = 1
+
+OR
+0 0 = 0
+0 1 = 1
+1 0 = 1
+1 1 = 1
+
+NOT
+1 = 0
+0 = 1
+
+6.Bitwise Operators:
+& ,|, ^,~
+2 | 3
+ 0 0 1 0 = 2
+ 0 0 1 1 = 3
+---------------
+ 0 0 1 1 = 3
+---------------
+
+7.Ternary Operators:
+condition ? value1 : value2
+8.Type Operators:
+typeof	Returns type of a variable	typeof 123 → "number"
+instanceof	Checks if object is instance of a class	a instanceof Array.
+
+
+
+ 

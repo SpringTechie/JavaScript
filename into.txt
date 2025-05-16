@@ -1,0 +1,9 @@
+What is HTML?
+Hyper Text Markup language. By this we can create static web pages.
+
+WHat is CSS?
+Cascading style sheets . It will add some additional flavores to static web pages.
+
+What is JavaScript?
+It add dynamic nature of html pages.
+

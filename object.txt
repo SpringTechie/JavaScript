@@ -1,0 +1,139 @@
+Object In Js : A group of properties is called Object.
+1.Using an Object Literal
+ by using curly braces with key value pairs, separted by colons 
+ empty object : const person = {};
+
+2.Using the new Keyword:
+  const person = new Object();
+  In JavaScript, almost "everything" is an object.
+
+How to acces the object in JS:
+let person = {
+
+}
+1.person.fieldName;
+2.person["fieldName"]
+
+to add any new property...
+person.nation = "india"
+
+to delete any property
+delete person.name;
+delete person["name]
+
+Nested Objects: An objects conatins another object isnide it.
+
+person {
+  name: "arun",
+  car : {
+    price:34
+  }
+}
+
+Object methods are actions that can be performed on objects.
+let person =  {
+    id : 1,
+    lastname: "arun",
+    firstname:"kumar",
+    isPresent : true,
+    fullName : function() {
+        return this.firstname + this.lastname;
+    },
+}
+person.fullName();
+
+How to display objects on UI?
+document.getElementById("demo).innerHTML = person
+
+when we looping on person object we need use object[x];
+for(x in person)
+ {
+   here x mean a key represented in double qotes
+   console.log(person[x])
+ }
+ second way to object?
+ By using Object.entries(person)
+ *** Using an Object Constructor
+If we want to create my objects of person we can do this by using constructor funtion.
+
+function Person(id,name,age) {
+  this.id = id,
+  this.name = name,
+  this.age = age;
+}
+const mother = new Person(1,"amma",23);
+const father = new Person(2,"nana",34);
+Note : these obejects are mutable meaning we can new property to it.
+father.nation = "india" it mean only add nation prop to that father object.
+if we try to add new prop to Constructor function it will throw error.
+example: Person.nation= "india"
+To add any new prop to constructor  we do this way
+Person.prototype.nation = "india"
+All objects that are created using Constructor inherit the nation property
+that code means that wont add any new prop to Person constructor, it add prototype object.
+When we search for mother.nation first it will check in main objwct with taht key , if not present itchecks inside 
+prototype object.
+to override that value
+mother.nation = "AUS"
+**********
+Use object literals {} instead of new Object().
+
+Use array literals [] instead of new Array().
+
+Use pattern literals /()/ instead of new RegExp().
+
+Use function expressions () {} instead of new Function().
+How to create Object?
+
+Using an Object Literal
+Using the new Keyword
+const person = new Object();
+
+// Add Properties
+person.firstName = "John";
+person.lastName = "Doe";
+person.age = 50;
+person.eyeColor = "blue";
+Using an Object Constructor
+
+
+
+
+Objects are objects
+Maths are objects
+Functions are objects
+Dates are objects
+Arrays are objects
+Maps are objects
+Sets are objects
+3.Using an Object Constructor
+
+Some Imp Object class methods..
+The Object.assign() method copies properties from one or more source objects to a target object.
+Object.assign(person2,person) // assign(target,source) copies 
+The Object.create(person) creates an object from an existing object.
+let person2 = Object.create(person) 
+whenever we ttry to log person2 object it shows empty because log method will show prop that are belong to
+peron2 object , not the inherited one.
+To see the prop inside the peron2 use person2.name;
+
+"use strict"
+// Create Object
+const person = {
+  firstName: "John",
+  lastName: "Doe",
+  age: 50,
+  eyeColor: "blue"
+};
+
+// Freeze Object
+Object.freeze(person)
+
+// This will throw an error
+person.age = 51;
+
+Object.preventExtensions() allows modifications, but prevents addition of properties.
+
+Object.seal() allows modifications, but prevents additions and deletions of properties.
+
+Object.freeze() prevents modifications, additions and deletions of properties.
