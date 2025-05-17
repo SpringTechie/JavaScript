@@ -1,19 +1,19 @@
 // // by using literal
-// let person =  {
-//     id : 1,
-//     lastname: "kumar",
-//     firstname:"arun",
-//     age: 23,
-//     Car : {
-//         price : 3459,
-//         brand : "BMW",
-//         model : "300"
-//     },
-//     fullName : function () {
-//        return this.firstname + this.lastname;
-//     }
+let person =  {
+    id : 1,
+    lastname: "kumar",
+    firstname:"arun",
+    age: 23,
+    Car : {
+        price : 3459,
+        brand : "BMW",
+        model : "300"
+    },
+    fullName : function () {
+       return this.firstname + this.lastname;
+    }
     
-//  }
+  }
 // // how to access the property of object.
 // console.log(person.firstname)
 // console.log(person["age"])
