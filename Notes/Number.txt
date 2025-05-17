@@ -1,0 +1,62 @@
+It is one of the primitive data type.
+we can create both decimal and non decimal numbers
+x = 23.
+y = 4.5
+
+some common example:
+if we put + btw two numbers it does the addition
+if we put + btw two Strings it concats the Strings
+if we put one number and String then it concats
+for example:
+
+x=20
+y=40
+z="arun"
+log(x+y+z) o/p= 60arun
+log(z+x+y) o/p =arun2040 
+javascript interpreter does the valuation from left to right
+
+
+x ="20"
+y="10"
+log(x-y) = 10 
+log(x*y) = 200
+log(x/y) = 2
+It internally converts into numbers
+
+Nan is not a Number:
+NaN is a JavaScript reserved word indicating that a number is not a legal number.
+
+x = 10
+y = "arun"
+log(x/y) = NaN
+
+we have a one function to find Nan objects
+isNaN(x)
+
+
+x = 4
+y = NaN 
+log(x+y) = o/p = NaN 
+
+x = "4"
+y = NaN 
+log(x+y) = o/p = NaN5 
+
+NaN is typeof Number
+
+Infinity (or -Infinity) is the value JavaScript will return if you calculate a number outside the largest possible number.
+Infinity is a number: typeof Infinity returns number.
+
+Comparing two JavaScript objects always returns false
+
+
+
+
+Number methods:
+toString()	Returns a number as a string
+toFixed()	Returns a number written with a number of decimals
+toPrecision()	Returns a number written with a specified length
+valueOf()	Returns a number as a number
+
+we have Number(any argument) function that converts value to Number.
