@@ -1,6 +1,7 @@
 It is one of the primitive data type.
 we can create both decimal and non decimal numbers
-x = 23.
+In js we have only number data type.
+x = 23
 y = 4.5
 
 some common example:
@@ -49,9 +50,6 @@ Infinity (or -Infinity) is the value JavaScript will return if you calculate a n
 Infinity is a number: typeof Infinity returns number.
 
 Comparing two JavaScript objects always returns false
-
-
-
 
 Number methods:
 toString()	Returns a number as a string

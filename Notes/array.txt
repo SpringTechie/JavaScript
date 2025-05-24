@@ -1,0 +1,35 @@
+car1 = "volvo"
+car2 = "hyndai"
+car3 = "tata"
+Arrays: It is used to store a group of values of same type or diff type.
+cars = ["volvo","hyndai","tata"]
+to empty Arrays:
+items = []
+to add values to empty Array
+items[0] = "ball"
+items[1] = "pen"
+Arrays supports indexing concept (index starts from 0)
+
+We create array by using new keyword
+let ar = new Array("volvo","hyndai","tata")
+This is not recomended way to create array
+
+Accesing array elements
+console.log(cars[2])
+To update the values
+cars[1] = "BMW"
+
+The type if array is object.
+Arrays store diff data type value:
+Some Important methods:
+let cars = ["volvo",45,"tata"]
+to find the length of array we use : array.length
+to convert an array to String we use: array.toString()
+to find the value of array at particular index: array.at(3) // retunr value of specified index.
+to join all values inside an array we use : array.join("*")
+to add new element to existing array we use : array.push("benz")
+to remove an element from array we use : array.pop() it removes last element of array.
+to remove first element inside an array we use : cars.shift() : 
+to add new value at first position we use : cars.unshift("benz"): this wont replace the existing value it just add this value at first postion and aleady existing value is moved to next position.
+to concat two strings:
+
