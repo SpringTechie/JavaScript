@@ -1,0 +1,13 @@
+Loops: used to iterate over array or to traverse from one position to another position.
+
+types of loops:
+1. for loop: loops through a block of code a number times.
+             use this loop when we know starting and ending value.
+2. for/in loop :  used to iterate over properties of object.
+3. for/of loop : used to iterate over collections(array,Strings)
+4. while loop : used to iterate over array or to traverse from one position to another position.
+                use this loop when you dont know end condition.
+5. do while: used to execute condition atleast one.
+
+break: it will break the loop based on some condition.
+continue: It skip the iteration based on condition.

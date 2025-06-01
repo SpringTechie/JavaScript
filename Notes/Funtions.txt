@@ -10,9 +10,9 @@ function <function_name>(parameters) {
 to invoke any function we have follow this Syntax
 
 function_name(arguments)
+
 All variables inside a function are local variables meaning it can be accessed inside that function only.
 Where js function are used?
-
 1.When event occures.
 2.When it is invoked from Js.
 3.Self invoking or calling.
@@ -27,3 +27,7 @@ console.log(minus(1,2))
 if we call like this for above function we get the "NaN"
 minus(); with empty args.
 
+self invoking function:
+(function() {
+    // code
+})();

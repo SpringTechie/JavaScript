@@ -1,0 +1,5 @@
+Set = it is also a collection, which is used to store a group of values.
+It similar to array but it wont allow duplicate values.
+To create set Object we have = new Set([1,2,3,4]) or empty Set let s1 = new Set()
+to add element to existing set we have add method
+used to check the specified element is present or not = has(element)

@@ -1,0 +1,12 @@
+Conditional Statements are used to perfom diff actions based on diff Conditions.
+if : it can exist solely and we need to give some Condition inside the if (Condition)
+if Condition is true if block is executed
+Note: for all the values other 0 , the if block will executed as true.
+else if(): we can write this only if and if "if" block exists.
+else: we cant write else block solely.
+
+
+switch: 
+Use switch Statement when there is group of similar elements.
+Example: Month Names, Weekdays, Images formats.
+

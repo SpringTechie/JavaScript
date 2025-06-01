@@ -32,4 +32,9 @@ to remove an element from array we use : array.pop() it removes last element of 
 to remove first element inside an array we use : cars.shift() : 
 to add new value at first position we use : cars.unshift("benz"): this wont replace the existing value it just add this value at first postion and aleady existing value is moved to next position.
 to concat two strings:
+to delete any item from array we use : delete array[index_number]: this is not recomended because it creates empty holes.
+to copy any element into another position we use copyWithin(): 
+to flat an array we use : array.flat()
+to extract any part of values from list we use: array.slice(0,2) : startindex to endIndex-1
+
 

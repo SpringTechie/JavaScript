@@ -1,0 +1,4 @@
+Map: It is used to store a group of values as key value pairs.
+key: value
+How to create Map: new Map();
+Map data strcuture will not  allow duplicate keys, but it allows duplicate values.
